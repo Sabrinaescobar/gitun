@@ -6,9 +6,11 @@ function createPerson(name, age) {
     };
   }
   
+refactor
   function addPersonAsFriend(person, friendo) {
     person.friends.push(friendo);
     return person;
+
   }
   
   module.exports = {
